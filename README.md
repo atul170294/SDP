@@ -1,4 +1,3 @@
-# SDP
 # Sales Data Pipeline
 
 A serverless pipeline on AWS that picks up a 2M-row sales dataset (ZIP from an external URL), converts it to Parquet, partitions it by Country, and makes it queryable through Athena. The whole thing is orchestrated with Step Functions and deployed via Terraform.
